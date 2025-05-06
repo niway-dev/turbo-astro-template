@@ -1,16 +1,38 @@
 {
   "name": "turbo-astro-template",
-  "type": "module",
   "version": "0.0.1",
+  "description": "This is a template for a Turbo repo with Astro and Svelte.",
+  "main": "index.js",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "test:e2e": "turbo run test:e2e",
+    "lint": "turbo run lint"
   },
   "dependencies": {
-    "@astrojs/svelte": "^7.0.13",
-    "astro": "^5.7.10",
-    "svelte": "^5.25.7"
-  }
+  },
+  "devDependencies": {
+    "turbo": "^2.5.0",
+    "@base-astro/typescript-config": "workspace:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niway-dev/turbo-astro-template.git"
+  },
+  "keywords": [
+    
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niway-dev/turbo-astro-template/issues"
+  },
+  "homepage": "https://github.com/niway-dev/turbo-astro-template#readme",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "packageManager": "pnpm@10.6.2"
 }
