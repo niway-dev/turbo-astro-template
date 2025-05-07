@@ -1,3 +1,0 @@
-{
-  "extends": "@base-astro/typescript-config/base.json"
-}

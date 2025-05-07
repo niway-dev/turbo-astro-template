@@ -1,0 +1,13 @@
+{
+  "extends": "@base-repo/typescript-config/core.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "incremental": false,
+    "baseUrl": "./",
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "include": ["src", ".eslintrc.js"],
+  "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
+}

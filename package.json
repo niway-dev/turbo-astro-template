@@ -13,17 +13,21 @@
   "dependencies": {
   },
   "devDependencies": {
-    "turbo": "^2.5.0",
-    "@base-astro/typescript-config": "workspace:*"
+    "turbo": "^2.5.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/niway-dev/turbo-astro-template.git"
   },
   "keywords": [
-    
+    "turbo",
+    "astro",
+    "svelte",
+    "typescript",
+    "drizzle",
+    "database"
   ],
-  "author": "",
+  "author": "Cristian Sotomayor",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/niway-dev/turbo-astro-template/issues"

@@ -1,0 +1,15 @@
+{
+  "extends": "@base-repo/typescript-config/database.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "incremental": false,
+    "baseUrl": "./",
+    "outDir": "dist",
+    "paths": {
+      "@/*": ["./src/*"],
+    }
+  },
+  "include": ["src", "src/index.ts", "drizzle.config.ts", ".eslintrc.js"],
+  "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
+}

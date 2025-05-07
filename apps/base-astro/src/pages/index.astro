@@ -1,6 +1,9 @@
 ---
 // Component Imports
-import Counter from '../components/Counter.svelte';
+// import '../styles/global.css';
+
+import Wrapper from '../components/Wrapper.svelte';
+
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/basics/astro-components/
@@ -25,9 +28,9 @@ import Counter from '../components/Counter.svelte';
 	</head>
 	<body>
 		<main>
-			<Counter client:visible>
-				<h1>Hello, Svelte!</h1>
-			</Counter>
+
+			<Wrapper />
+
 		</main>
 	</body>
 </html>

@@ -1,0 +1,1 @@
+export { default as TestingComponent } from './TestingComponent.svelte';
